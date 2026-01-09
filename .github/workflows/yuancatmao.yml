@@ -1,8 +1,9 @@
 name: yuancatmao
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '34 3/6 * * *'
+    - cron: '34 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,20 +12,8 @@ jobs:
       - uses: actions/checkout@v4
       - name: yuancatmao
         env:
-          qdf3162: ${{ secrets.qdf3162 }}
+          p177: ${{ secrets.p177 }}
         run: |
-          echo $qdf3162 | jq -r .b19670 | /bin/bash
-          echo $zx44807 | jq -r .jod364 | /bin/bash
-          echo $vt62428 | jq -r .ll452 | /bin/bash
-          echo $i502 | jq -r .rtgo15813 | /bin/bash
-          echo $vwjlw59799 | jq -r .hsl311 | /bin/bash
-          echo $d11160 | jq -r .bxpie682 | /bin/bash
-          echo $xna0 | jq -r .pfnac277 | /bin/bash
-          echo $af6312 | jq -r .ebsbt818 | /bin/bash
-          echo $ju448 | jq -r .xksh00139 | /bin/bash
-          echo $eq362 | jq -r .web04270 | /bin/bash
-          echo $khyj32995 | jq -r .p50084 | /bin/bash
-          echo $bgk58988 | jq -r .l61 | /bin/bash
-          echo $fo85 | jq -r .q060 | /bin/bash
-          echo $zyl15221 | jq -r .se97 | /bin/bash
+          echo $p177 | jq -r .wdqc5952 | /bin/bash
+          echo $sv9 | jq -r .uzvn75588 | /bin/bash
 
